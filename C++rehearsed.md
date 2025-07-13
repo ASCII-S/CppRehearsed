@@ -1,23 +1,3 @@
----
-jupytext:
-  formats: md:markdown,ipynb/BookName/BookName.ipynb:notebook
-  text_representation:
-    extension: .md
-    format_name: markdown
-    format_version: '1.3'
-    jupytext_version: 1.13.8
-kernelspec:
-  display_name: C++
-  language: C++
-  name: xcpp
-language_info:
-  codemirror_mode: text/x-c++src
-  file_extension: .cpp
-  mimetype: text/x-c++src
-  name: c++
-  version: '11'
----
-
 # C++八股文 学习笔记
 
 ## 📝 阅读计划
@@ -50,4 +30,4 @@ gantt
 
 - 网站：[C++八股文](https://csguide.cn/cpp/intro.html)
 - 其他文档: [小贺的C++八股文](.BookReference/亮白风格-C++八股文-小贺-v1.0.pdf)
-- 配套代码：[[.CodeReference/README]]
+- 配套代码：[.CodeReference](.CodeReference/)
