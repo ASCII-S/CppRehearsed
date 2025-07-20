@@ -1,0 +1,8 @@
+---
+globs: notes/**/*.md
+alwaysApply: false
+---
+- 我需要你在该文档中，以面试的场景，对话式，口语化但有逻辑衔接地讲解一些C++语言的知识点,不要过分结构化。
+- 需要编写面试者问题时，你可以调用mcp工具进行网页搜索高频面试问题。
+- 知识点讲解完成时的代码演示不要直接在该文档中展示，应该用markdwon的引用链接到对应代码文件,例如对`notes/01-C++语言基础篇/const.md`中const关键字讲解中，部分代码位置在`MyOutput/01-C++语言基础篇/CodeOut/const/const_pointer_demo.cpp`。
+- 代码文件采用全英文，你要根据面试问题，在代码文件中以TODO序号的形式引导我手动编码而不是直接写完,控制我在这个知识点中代码编写的时间30min以内,并且在Solution文件夹下创建对应代码的答案`MyOutput/01-C++语言基础篇/CodeOut/const/Solution/const_pointer_demo.cpp`
