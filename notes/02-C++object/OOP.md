@@ -1,4 +1,4 @@
-# 面向对象三大特性
+# 面向对象三大特性(OOP, Object-Oriented Programming)
 
 面试官：我们来聊聊C++面向对象的三大特性，你能说说是哪三大特性吗？
 
@@ -20,7 +20,7 @@
 
 候选人：比如银行账户类，余额是private，存取钱用public方法控制，防止外部随意修改。
 
-> 代码引导：[封装练习](../../MyOutput/02-C++面向对象篇/CodeOut/OOP/feature_demo.cpp)
+> 代码引导：[封装练习](../../MyOutput/02-C++object/CodeOut/OOP/feature_demo.cpp)
 
 ---
 
@@ -38,7 +38,7 @@
 
 候选人：代码复用、结构清晰、易于扩展。
 
-> 代码引导：[继承练习](../../MyOutput/02-C++面向对象篇/CodeOut/OOP/feature_demo.cpp)
+> 代码引导：[继承练习](../../MyOutput/02-C++object/CodeOut/OOP/feature_demo.cpp)
 
 ---
 
@@ -56,7 +56,7 @@
 
 候选人：靠虚函数（virtual），基类指针/引用指向子类对象，调用虚函数时会自动分派到子类实现。
 
-> 代码引导：[多态练习](../../MyOutput/02-C++面向对象篇/CodeOut/OOP/feature_demo.cpp)
+> 代码引导：[多态练习](../../MyOutput/02-C++object/CodeOut/OOP/feature_demo.cpp)
 
 ---
 
@@ -72,14 +72,14 @@
 
 ## 动手练习安排
 
-请在`MyOutput/02-C++面向对象篇/CodeOut/feature_demo.cpp`中，按TODO序号完成如下任务：
+请在`MyOutput/02-C++object/CodeOut/feature_demo.cpp`中，按TODO序号完成如下任务：
 1. 实现一个封装了余额的BankAccount类，提供存取款接口。
 2. 实现一个Animal基类和Dog、Cat子类，演示继承。
 3. 用基类指针实现多态，分别让Dog和Cat发出不同叫声。
 
 每个TODO建议10分钟内完成，遇到不会的地方可以先写伪代码。
 
-完成后可参考答案：[feature_demo.cpp答案](../../MyOutput/02-C++面向对象篇/CodeOut/OOP/Solution/feature_demo.cpp)
+完成后可参考答案：[feature_demo.cpp答案](../../MyOutput/02-C++object/CodeOut/OOP/Solution/feature_demo.cpp)
 
 ---
 

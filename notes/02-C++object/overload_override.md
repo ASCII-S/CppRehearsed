@@ -21,7 +21,7 @@ double add(double a, double b);
 
 调用`add(1,2)`和`add(1.0,2.0)`会自动匹配不同的实现。
 
-> 代码引导：[重载练习](../../MyOutput/02-C++面向对象篇/CodeOut/overload_and_override/overload_demo.cpp)
+> 代码引导：[重载练习](../../MyOutput/02-C++object/CodeOut/overload_and_override/overload_demo.cpp)
 
 ---
 
@@ -44,7 +44,7 @@ class Base { public: virtual void show(); };
 class Derived : public Base { public: void show() override; };
 ```
 
-> 代码引导：[重写练习](../../MyOutput/02-C++面向对象篇/CodeOut/overload_and_override/override_demo.cpp)
+> 代码引导：[重写练习](../../MyOutput/02-C++object/CodeOut/overload_and_override/override_demo.cpp)
 
 ---
 
@@ -69,7 +69,7 @@ class Derived : public Base { public: void func(double); };
 
 此时`Derived`对象只能直接调用`func(double)`，`func(int)`被隐藏了。
 
-> 代码引导：[隐藏练习](../../MyOutput/02-C++面向对象篇/CodeOut/overload_and_override/hide_demo.cpp)
+> 代码引导：[隐藏练习](../../MyOutput/02-C++object/CodeOut/overload_and_override/hide_demo.cpp)
 
 ---
 
@@ -89,13 +89,13 @@ class Derived : public Base { public: void func(double); };
 ---
 
 动手练习安排：
-- 请在`MyOutput/02-C++面向对象篇/CodeOut/overload_and_override/overload_demo.cpp`中，按TODO序号完成重载相关练习。
-- 在`MyOutput/02-C++面向对象篇/CodeOut/overload_and_override/override_demo.cpp`中，按TODO序号完成重写相关练习。
-- 在`MyOutput/02-C++面向对象篇/CodeOut/overload_and_override/hide_demo.cpp`中，按TODO序号完成隐藏相关练习。
+- 请在`MyOutput/02-C++object/CodeOut/overload_and_override/overload_demo.cpp`中，按TODO序号完成重载相关练习。
+- 在`MyOutput/02-C++object/CodeOut/overload_and_override/override_demo.cpp`中，按TODO序号完成重写相关练习。
+- 在`MyOutput/02-C++object/CodeOut/overload_and_override/hide_demo.cpp`中，按TODO序号完成隐藏相关练习。
 
 每个TODO建议10分钟内完成，遇到不会的地方可以先写伪代码。
 
 完成后可参考答案：
-- [overload_demo.cpp答案](../../MyOutput/02-C++面向对象篇/CodeOut/overload_and_override/Solution/overload_demo.cpp)
-- [override_demo.cpp答案](../../MyOutput/02-C++面向对象篇/CodeOut/overload_and_override/Solution/override_demo.cpp)
-- [hide_demo.cpp答案](../../MyOutput/02-C++面向对象篇/CodeOut/overload_and_override/Solution/hide_demo.cpp)
+- [overload_demo.cpp答案](../../MyOutput/02-C++object/CodeOut/overload_and_override/Solution/overload_demo.cpp)
+- [override_demo.cpp答案](../../MyOutput/02-C++object/CodeOut/overload_and_override/Solution/override_demo.cpp)
+- [hide_demo.cpp答案](../../MyOutput/02-C++object/CodeOut/overload_and_override/Solution/hide_demo.cpp)
