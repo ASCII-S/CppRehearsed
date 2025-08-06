@@ -18,12 +18,14 @@ public:
         // Uncomment the next line to simulate exception in destructor
         // throw runtime_error("Exception in destructor!");
         cout << "FileHandler destructed." << endl;
+        // throw runtime_error("Exception in destructor");
     }
     // TODO 4: Add a close() member function that throws an exception
     void close()
     {
         // throw runtime_error("Exception in close()!");
         cout << "FileHandler closed." << endl;
+        throw runtime_error("Exception in close()");
     }
 };
 

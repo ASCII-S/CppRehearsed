@@ -99,3 +99,17 @@ class Derived : public Base { public: void func(double); };
 - [overload_demo.cpp答案](../../MyOutput/02-C++object/CodeOut/overload_and_override/Solution/overload_demo.cpp)
 - [override_demo.cpp答案](../../MyOutput/02-C++object/CodeOut/overload_and_override/Solution/override_demo.cpp)
 - [hide_demo.cpp答案](../../MyOutput/02-C++object/CodeOut/overload_and_override/Solution/hide_demo.cpp)
+
+---
+
+## 自测练习
+
+完成代码练习后，建议进行以下自测：
+
+### 书面自测
+- [重载、重写和隐藏自测题](../../MyOutput/02-C++object/WriteOut/overload_override/overload_override_self_test.md)
+
+### 口语练习
+- [面试对话练习](../../MyOutput/02-C++object/SpeakOut/overload_override/overload_override_interview_questions.md)
+
+建议先完成书面自测，然后进行口语练习，录制视频来检验自己的理解程度。

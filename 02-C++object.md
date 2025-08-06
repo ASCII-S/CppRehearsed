@@ -23,3 +23,16 @@
 ## 多态的实现方式详解
 
 [多态的实现方式详解](./notes/02-C++object/polymorphism.md)
+
+## this指针
+
+[this指针详解](./notes/02-C++object/this_pointer.md)
+
+## 虚函数表
+
+[虚函数表详解](./notes/02-C++object/vtable.md)
+
+## 纯虚函数
+
+[纯虚函数](./notes/02-C++object/pure_virtual_function.md)
+
