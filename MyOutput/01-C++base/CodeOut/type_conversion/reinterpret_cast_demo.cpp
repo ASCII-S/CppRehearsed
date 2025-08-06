@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <stdint.h>
 #include <iomanip>
 using namespace std;
 
@@ -56,6 +57,11 @@ int main()
     std::cout << "address of i4 is: " << &i4 << std::endl;
     std::cout << "i4_ptr is: " << i4_ptr << std::endl;
     std::cout << "i4_uptr is: " << i4_uptr << std::endl;
+    std::cout << "value of i4 is: " << i4 << std::endl;
+    std::cout << "deference i4_ptr is: " << *i4_ptr << std::endl;
+    std::cout << "deference i4_uptr is: " << *reinterpret_cast<int *>(i4_uptr) << std::endl;
+    std::cout << "sizeof(int) is: " << sizeof(int) << std::endl;
+    std::cout << "sizeof(uintptr_t) is: " << sizeof(uintptr_t) << std::endl;
 
     // TODO 5: Integer to pointer conversion
     // Requirements:

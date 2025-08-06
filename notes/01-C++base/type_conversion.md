@@ -17,7 +17,7 @@
 
 **求职者：** 这个问题很好。向上转换安全是因为子类对象包含父类的所有成员，所以把子类指针转换为父类指针总是安全的。但是向下转换不安全，因为**父类对象可能不包含子类的所有成员**。如果我们把一个真正指向父类对象的指针转换为子类指针，那么访问子类特有的成员就会出现未定义行为。
 
-这时候我想到一个练习，让我们来手动实现一下： [static_cast练习](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/static_cast_demo.cpp)
+这时候我想到一个练习，让我们来手动实现一下： [static_cast练习](../../MyOutput/01-C++base/CodeOut/type_conversion/static_cast_demo.cpp)
 
 **面试官：** 好的，接下来我们说说dynamic_cast。它和static_cast有什么区别？
 
@@ -32,7 +32,7 @@
 
 **求职者：** 这是因为dynamic_cast需要RTTI（运行时类型信息），而这些信息存储在虚函数表中。只有定义了虚函数的类才有虚函数表，所以dynamic_cast才能在运行时检查对象的真实类型。
 
-让我们通过一个练习来深入理解： [dynamic_cast练习](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/dynamic_cast_demo.cpp)
+让我们通过一个练习来深入理解： [dynamic_cast练习](../../MyOutput/01-C++base/CodeOut/type_conversion/dynamic_cast_demo.cpp)
 
 **面试官：** 那const_cast呢？它的用途是什么？
 
@@ -46,7 +46,7 @@
 
 **求职者：** 好的，这里有个重要区别。如果原始对象不是const的，只是通过const指针或引用访问，那么用const_cast移除const后修改是安全的。但如果原始对象本身就是const定义的，那么即使用const_cast移除const，修改它也是未定义行为。例如保存在代码段中的字符串字面量，即使使用const_cast移除const，修改它也会导致段错误。
 
-让我们通过实际例子来理解： [const_cast练习](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/const_cast_demo.cpp)
+让我们通过实际例子来理解： [const_cast练习](../../MyOutput/01-C++base/CodeOut/type_conversion/const_cast_demo.cpp)
 
 **面试官：** 最后一个，reinterpret_cast，这个听起来比较危险？
 
@@ -67,7 +67,7 @@
 3. 与C语言接口时的类型转换
 4. 实现哈希函数时，将指针转换为整数
 
-让我们通过一个练习来谨慎地使用它： [reinterpret_cast练习](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/reinterpret_cast_demo.cpp)
+让我们通过一个练习来谨慎地使用它： [reinterpret_cast练习](../../MyOutput/01-C++base/CodeOut/type_conversion/reinterpret_cast_demo.cpp)
 
 **面试官：** 很好，最后一个问题，你能总结一下这四种转换的使用原则吗？
 
@@ -84,13 +84,13 @@
 
 ## 综合练习
 
-为了加深对这四种转换的理解，我们来做一个综合练习： [综合练习](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/comprehensive_demo.cpp)
+为了加深对这四种转换的理解，我们来做一个综合练习： [综合练习](../../MyOutput/01-C++base/CodeOut/type_conversion/comprehensive_demo.cpp)
 
 ## 解答代码
 
 完整的解答代码可以在这里找到：
-- [static_cast解答](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/Solution_static_cast_demo.cpp)
-- [dynamic_cast解答](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/Solution_dynamic_cast_demo.cpp)
-- [const_cast解答](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/Solution_const_cast_demo.cpp)
-- [reinterpret_cast解答](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/Solution_reinterpret_cast_demo.cpp)
-- [综合练习解答](../../MyOutput/01-C++语言基础篇/CodeOut/type_conversion/Solution_comprehensive_demo.cpp)
+- [static_cast解答](../../MyOutput/01-C++base/CodeOut/type_conversion/Solution_static_cast_demo.cpp)
+- [dynamic_cast解答](../../MyOutput/01-C++base/CodeOut/type_conversion/Solution_dynamic_cast_demo.cpp)
+- [const_cast解答](../../MyOutput/01-C++base/CodeOut/type_conversion/Solution_const_cast_demo.cpp)
+- [reinterpret_cast解答](../../MyOutput/01-C++base/CodeOut/type_conversion/Solution_reinterpret_cast_demo.cpp)
+- [综合练习解答](../../MyOutput/01-C++base/CodeOut/type_conversion/Solution_comprehensive_demo.cpp)

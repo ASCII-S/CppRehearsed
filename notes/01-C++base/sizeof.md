@@ -22,7 +22,7 @@ sizeof是头文件`<cstddef>`中的一个关键字，用于计算对象或类型
 
 答：功能上来说，sizeof计算的是类型或对象的大小，而strlen计算的是C风格字符串的长度。从实现上来说，sizeof是一个运算符，而strlen是一个函数。
 
-[strlen函数原型详解](../notes/strlen.md)
+[strlen函数原型详解](./strlen.md)
 
 [sizeof和strlen的区别](../../MyOutput/01-C++语言基础篇/CodeOut/sizeof/sizeof_strlen.cpp)
 
